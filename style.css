@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    height: 9000px;
+    height: 3000px;
 }
 
 .navbar-brand {
@@ -85,7 +85,7 @@ h1,p {
 .yuni .card img {
     position: absolute;
     bottom: 0;
-    left: 2%!important;
+    left: 10%!important;
     translate: translateX(-50%);
     height: 350px;
     transition: 0.5s;
