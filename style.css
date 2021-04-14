@@ -172,21 +172,20 @@ h1,p {
     .shimsu .card:hover {
         height: 600px;
     }
-
     
     .shimsu .card:hover img {
         left: 20%;
-        height: 350px;
+        height: 210px;
     }
 
     .yuni .card:hover img {
         left: 1%!important;
-        height: 350px;
+        height: 210px;
     }
 
     .sojin .card:hover img {
-        left: 10%!important;
-        height: 350px;
+        left: 15%!important;
+        height: 210px;
     }
 
     .shimsu .card .content {
@@ -199,5 +198,14 @@ h1,p {
 @media (max-width: 767px)  {
 .shimsu {
     flex-direction: column;
+}
+
+.shimsu .card img {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    translate: translateX(-50%);
+    height: 210px;
+    transition: 0.5s;
 }
 }
