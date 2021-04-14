@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -35,4 +38,156 @@ display: inline-block;
 
 h1,p {
     color: white;
+}
+.parag {
+    color: black;
+}
+
+.shimsu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shimsu .card {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: flex-start;
+    background: linear-gradient(45deg, #c5af74, #c6c159);
+}
+
+.yuni .card {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: flex-start;
+    background: linear-gradient(45deg, #393a35, #8a8869);
+}
+
+.yuni .card img {
+    position: absolute;
+    bottom: 0;
+    left: 10%!important;
+    translate: translateX(-50%);
+    height: 350px;
+    transition: 0.5s;
+}
+
+.yuni .card:hover img {
+    left: 17%!important;
+    height: 430px;
+}
+
+.sojin .card img {
+    position: absolute;
+    bottom: 0;
+    left: 10%!important;
+    translate: translateX(-50%);
+    height: 350px;
+    transition: 0.5s;
+}
+
+.sojin .card:hover img {
+    left: 28%!important;
+    height: 430px;
+}
+
+.shimsu .card img {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    translate: translateX(-50%);
+    height: 350px;
+    transition: 0.5s;
+}
+
+.shimsu .card:hover img {
+    left: 32%;
+    height: 430px;
+}
+
+.shimsu .card .content {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.shimsu .card:hover .content {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.shimsu .card .content h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+
+.shimsu .card .content p {
+    color: #fff;
+}
+
+.shimsu .card .content a {
+    position: relative;
+    color: #000;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media (max-width: 991px) {
+    .shimsu .card {
+        width: auto;
+        max-width: 600px;
+        align-items: flex-start;
+    }
+
+    .shimsu .card:hover {
+        height: 600px;
+    }
+
+    
+    .shimsu .card:hover img {
+        left: 20%;
+        height: 350px;
+    }
+
+    .yuni .card:hover img {
+        left: 10%!important;
+        height: 350px;
+    }
+
+    .sojin .card:hover img {
+        left: 10%!important;
+        height: 350px;
+    }
+
+    .shimsu .card .content {
+        width: 100%;
+        left: 0;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 767px)  {
+.shimsu {
+    flex-direction: column;
+}
 }
