@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 9000px;
+}
+
+.navbar-brand {
+    width: 50px;
+    height: 50px;
+}
+
+.jumbotron {
+    margin-top: -70px;
+    height: 500px;
+    background-image: url('assets/jumbo-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sect-1 {
+display: inline-block;
+    margin: 0 0.5rem;
+  animation: fadeInLeftBig; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+    border-radius: 5px;
+    border: solid 1px white;
+}
+
+.para {
+    display: block;
+      animation: fadeInRightBig;
+      animation-duration: 1s;
+    }
+
+h1,p {
+    color: white;
+}
