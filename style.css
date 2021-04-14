@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     margin: 0;
@@ -36,6 +39,10 @@ display: inline-block;
       animation-duration: 1s;
     }
 
+.hera {
+    margin: auto;
+}
+
 h1,p {
     color: white;
 }
@@ -58,7 +65,9 @@ h1,p {
     display: flex;
     transition: 0.5s;
     justify-content: flex-start;
-    background: linear-gradient(45deg, #c5af74, #c6c159);
+    background-image: url(assets/blur.jpg);
+    background-size: cover;
+    border: 1px solid white;
 }
 
 .yuni .card {
@@ -69,13 +78,14 @@ h1,p {
     display: flex;
     transition: 0.5s;
     justify-content: flex-start;
-    background: linear-gradient(45deg, #393a35, #8a8869);
+    background-image: url(assets/blur.jpg);
+    background-size: cover;
 }
 
 .yuni .card img {
     position: absolute;
     bottom: 0;
-    left: 10%!important;
+    left: 2%!important;
     translate: translateX(-50%);
     height: 350px;
     transition: 0.5s;
@@ -170,7 +180,7 @@ h1,p {
     }
 
     .yuni .card:hover img {
-        left: 10%!important;
+        left: 1%!important;
         height: 350px;
     }
 
