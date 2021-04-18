@@ -570,7 +570,7 @@ footer p {
     }
 
     .yuni .card img {
-        left: 17%!important;
+        left: 13%!important;
         height: 260px;
     }
 
@@ -642,15 +642,6 @@ footer p {
     transition: 0.5s;
 }
 
-.yuni .card img {
-    position: absolute;
-    bottom: 0;
-    left: 13%;
-    translate: translateX(-50%);
-    height: 260px;
-    transition: 0.5s;
-}
-
 .hera {
     width: 10px;
 }
@@ -686,6 +677,6 @@ footer p {
 }
 
 .popup {
-    left: 40%;
+    left: 45%;
 }
 }
