@@ -167,6 +167,7 @@ section {
     justify-content: center;
     overflow-x: hidden;
     margin-top: -120px;
+    margin-bottom: -60px;
 }
 
 section .container {
@@ -569,11 +570,6 @@ footer p {
         height: 260px;
     }
 
-    .yuni .card img {
-        left: 9%!important;
-        height: 260px;
-    }
-
     .sojin .card:hover img {
         left: 15%!important;
         height: 260px;
@@ -592,18 +588,24 @@ footer p {
     }
 
     section {
+        height: 180vh;
         margin-top: -400px;
-        margin-bottom: -400px;
     }
+
+.funfact {
+    margin-top: -400px;
+}
 
     .tool .tooltip-content {
         flex-direction: column;
         max-width: 300px;
+        z-index: 10!important;
     }
 
     .tool .tooltip-content .content,
     .tool .tooltip-content img {
         width: 100%;
+        z-index: 11;
     }
 
     footer {
@@ -643,8 +645,21 @@ footer p {
 }
 
 .yuni .card img {
-    left: 6%!important;
+    position: absolute;
+    bottom: 0;
+    left: 1%!important;
+    translate: translateX(-50%);
     height: 260px;
+    transition: 0.5s;
+}
+
+.sojin .card img {
+    position: absolute;
+    bottom: 0;
+    left: 15%!important;
+    translate: translateX(-50%);
+    height: 260px;
+    transition: 0.5s;
 }
 
 .hera {
@@ -672,6 +687,15 @@ footer p {
     padding: 20px;
     padding-top: 0;
 }
+
+section {
+    margin-top: -600px;
+}
+
+.funfact {
+    margin-top: -550px;
+}
+
 .close {
     top: -50px;
     right: -10px;
@@ -682,6 +706,6 @@ footer p {
 }
 
 .popup {
-    left: 46%;
+    left: 42%;
 }
 }
