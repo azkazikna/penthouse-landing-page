@@ -233,7 +233,7 @@ section .container img {
     max-width: 300px;
     opacity: 0;
     pointer-events: none;
-    z-index: 2;
+    z-index: 3;
 }
 
 .tool.active .tooltip-content {
@@ -570,7 +570,7 @@ footer p {
     }
 
     .yuni .card img {
-        left: 13%!important;
+        left: 9%!important;
         height: 260px;
     }
 
@@ -642,6 +642,11 @@ footer p {
     transition: 0.5s;
 }
 
+.yuni .card img {
+    left: 8%!important;
+    height: 260px;
+}
+
 .hera {
     width: 10px;
 }
@@ -677,6 +682,6 @@ footer p {
 }
 
 .popup {
-    left: 45%;
+    left: 44%;
 }
 }
