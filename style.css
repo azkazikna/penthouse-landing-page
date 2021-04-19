@@ -701,4 +701,8 @@ footer p {
 .popup {
     left: 42%;
 }
+
+.funfact img {
+    width: 350px!important;
+}
 }
